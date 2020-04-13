@@ -37,7 +37,7 @@ import {
   completedTasksChart
 } from "variables/charts.js";
 
-import styles from "assets/jss/material-dashboard-react/views/dashboardStyle.js";
+import styles from "assets/jss/ics-dashboard/views/dashboardStyle.js";
 
 const useStyles = makeStyles(styles);
 

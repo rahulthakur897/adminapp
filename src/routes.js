@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Material Dashboard React - v1.8.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/material-dashboard-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-// @material-ui/icons
 import Dashboard from "@material-ui/icons/Dashboard";
 import Person from "@material-ui/icons/Person";
 import LibraryBooks from "@material-ui/icons/LibraryBooks";
@@ -41,46 +23,46 @@ const dashboardRoutes = [
   },
   {
     path: "/user",
-    name: "User Profile",
+    name: "Users",
     icon: Person,
     component: UserProfile,
     layout: "/admin"
   },
   {
     path: "/table",
-    name: "Table List",
+    name: "Counselling",
     icon: "content_paste",
     component: TableList,
     layout: "/admin"
   },
   {
     path: "/typography",
-    name: "Typography",
+    name: "Registration",
     icon: LibraryBooks,
     component: Typography,
     layout: "/admin"
   },
   {
     path: "/icons",
-    name: "Icons",
+    name: "Berkmann Test",
     icon: BubbleChart,
     component: Icons,
     layout: "/admin"
   },
-  {
-    path: "/maps",
-    name: "Maps",
-    icon: LocationOn,
-    component: Maps,
-    layout: "/admin"
-  },
-  {
-    path: "/notifications",
-    name: "Notifications",
-    icon: Notifications,
-    component: NotificationsPage,
-    layout: "/admin"
-  }
+  // {
+  //   path: "/maps",
+  //   name: "Maps",
+  //   icon: LocationOn,
+  //   component: Maps,
+  //   layout: "/admin"
+  // },
+  // {
+  //   path: "/notifications",
+  //   name: "Notifications",
+  //   icon: Notifications,
+  //   component: NotificationsPage,
+  //   layout: "/admin"
+  // }
 ];
 
 export default dashboardRoutes;

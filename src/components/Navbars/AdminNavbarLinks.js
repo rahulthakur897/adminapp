@@ -16,7 +16,7 @@ import Notifications from "@material-ui/icons/Notifications";
 // core components
 import Button from "components/CustomButtons/Button.js";
 
-import styles from "assets/jss/material-dashboard-react/components/headerLinksStyle.js";
+import styles from "assets/jss/ics-dashboard/components/headerLinksStyle.js";
 
 const useStyles = makeStyles(styles);
 

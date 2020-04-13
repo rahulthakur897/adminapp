@@ -1,7 +1,7 @@
 {
-  "name": "material-dashboard-react",
+  "name": "ics-dashboard",
   "version": "1.8.0",
-  "description": "Material Dashboard React. Coded by Creative Tim",
+  "description": "ICS Admin Panel",
   "private": false,
   "main": "dist/index.js",
   "dependencies": {
@@ -28,20 +28,12 @@
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "lint:check": "eslint . --ext=js,jsx;  exit 0",
     "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
-    "build-package-css": "cp src/assets/css/material-dashboard-react.css dist/material-dashboard-react.css",
+    "build-package-css": "cp src/assets/css/ics-dashboard.css dist/ics-dashboard.css",
     "build-package": "npm run build-package-css && babel src --out-dir dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creativetimofficial/material-dashboard-react.git"
-  },
   "keywords": [],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+  "author": "Rahul Thakur",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/material-dashboard-react/issues"
-  },
-  "homepage": "https://creativetimofficial.github.io/material-dashboard-react/#/dashboard",
   "optionalDependencies": {
     "@types/googlemaps": "3.37.3",
     "@types/markerclustererplus": "2.1.33",
