@@ -44,7 +44,7 @@ const dashboardRoutes = [
   },
   {
     path: "/icons",
-    name: "Berkmann Test",
+    name: "Tests",
     icon: BubbleChart,
     component: Icons,
     layout: "/admin"
